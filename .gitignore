@@ -172,3 +172,60 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled source
+dist/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Binaries
+*.exe
+*.dll
+*.out
+*.app
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Next.js / React static output
+.next/
+.out/
+.vite/
+.cache/
+
+# VSCode (optional)
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
